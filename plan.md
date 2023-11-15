@@ -40,16 +40,15 @@ Below is an assumption of what data we could find in the tables. Will need to lo
 7. Repeat step 6 and do it for other metrics, one by one.
 
 ### Findings from Initial Data Exploration for Happiness Metric
-#### Definition
 **Happiness**: Measure of user satisfaction and happiness with the Questions & Answers product.
 Below I will list the columns from each table I believe will help understand user satisfaction and happiness with the product.
-##### Posts
+#### Posts
 * favorite_count
 * accepted_answer_id
 * score
-##### Comments
+#### Comments
 * score
-##### Users
+#### Users
 * up_votes
 * down_votes
 
