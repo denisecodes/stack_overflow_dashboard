@@ -32,7 +32,7 @@ Below is an assumption of what data we could find in the tables. Will need to lo
 
 ### Steps
 1. Understand what Questions & Answers product is
-2. Have a look at the data pertaining to questions & answers for users using Stacko verflow
+2. Have a look at the data pertaining to questions & answers for users using Stackoverflow
 3. Look at metrics that are being used to measure User Experience (UX) for Questions & Answers product
 4. Understand what each metric means and where this is being measured in the dataset
 5. Choose some tables to explore base on what my assumption of these tables mean and how they can help answer the metrics 
