@@ -31,13 +31,27 @@ Below is an assumption of what data we could find in the tables. Will need to lo
     * ***TagSynonyms***: this table contains info on which tags are synonyms of each other. this is through using tagnames i.e. happy (SourceTagName), cheerful (TargetTagName)
 
 ### Steps
-1. Understand what Questions & Answers product is
-2. Have a look at the data pertaining to questions & answers for users using Stackoverflow
-3. Look at metrics that are being used to measure User Experience (UX) for Questions & Answers product
-4. Understand what each metric means and where this is being measured in the dataset
-5. Choose some tables to explore base on what my assumption of these tables mean and how they can help answer the metrics 
-6. After exploring, decide how to tackle the first metric (**Happiness**) and which table(s) can be useful to create a dashboard to assess this
+1. Understand what Questions & Answers product is.
+2. Have a look at the data pertaining to questions & answers for users using Stackoverflow.
+3. Look at metrics that are being used to measure User Experience (UX) for Questions & Answers product.
+4. Understand what each metric means and where this is being measured in the dataset.
+5. Choose the five tables in the database (not all tables in the schema are available to explore). Check what data is inside this tables and how they can help answer the metrics.
+6. After exploring, decide how to tackle the first metric (**Happiness**) and which table(s) can be useful to create a dashboard to assess this.
+7. Repeat step 6 and do it for other metrics, one by one.
 
+### Findings from Initial Data Exploration for Happiness Metric
+#### Definition
+**Happiness**: Measure of user satisfaction and happiness with the Questions & Answers product.
+Below I will list the columns from each table I believe will help understand user satisfaction and happiness with the product.
+##### Posts
+* favorite_count
+* accepted_answer_id
+* score
+##### Comments
+* score
+##### Users
+* up_votes
+* down_votes
 
 
 
