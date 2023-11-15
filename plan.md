@@ -1,7 +1,7 @@
 ## Plan
 
 ### Task
-* Build a dashboard that can be used to track metrics that measure the quality of the Questions & Answers user experience (UX)
+* Build a dashboard that can be used to track metrics that measure the quality of the Questions & Answers user experience (UX) for Stackoverflow
 
 ### Product Metrics
 * The overall success is measured by a user experience methodology called HEART
@@ -52,5 +52,9 @@ Below I will list the columns from each table I believe will help understand use
 * up_votes
 * down_votes
 
+### Approach
+* Joining up posts and comments on post_id
+* Joining up users and comments on user_id
+* Joining up users and posts on user_id
 
 
