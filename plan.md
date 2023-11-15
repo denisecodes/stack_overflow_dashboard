@@ -36,6 +36,7 @@ Below is an assumption of what data we could find in the tables. Will need to lo
 3. Look at metrics that are being used to measure User Experience (UX) for Questions & Answers product
 4. Understand what each metric means and where this is being measured in the dataset
 5. Choose some tables to explore base on what my assumption of these tables mean and how they can help answer the metrics 
+6. After exploring, decide how to tackle the first metric (**Happiness**) and which table(s) can be useful to create a dashboard to assess this
 
 
 
